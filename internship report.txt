@@ -1,0 +1,30 @@
+
+ 
+A.V.Sidhartha 
+6th Semester, Electronics and Communication Engineering, Amrita Vishwa Vidya Peetham, Coimbatore. 
+ 
+Jan. 2 –Jan. 18 ,2020 
+Nuclear Fuel Complex,Hyderabad 
+ 
+Table of contents 
+ 
+1.Company Information 
+2.Internship Description 
+3.Overview of the internship experience  
+4.Ongoing consideration 
+
+Company Information 
+
+Nuclear Fuel Complex, Hyderabad is an industrial unit of the Department of Atomic Energy, Government of India. NFC is the only organization in India that caters to the fuel requirements of nuclear power reactors. Nuclear Fuel Complex, Hyderabad was conceived in the late '60s as a pivotal industrial arm of the Department of Atomic Energy with the mandate to fuel the nuclear power program of Govt. of India. An ISO certified organization, NFC is the only organization in the world today to have a comprehensive manufacturing cycle from the core to ore, involving processing of both Uranium & Zirconium streams under the same roof. NFC’s specialty lies in the manufacturing of nuclear fuel bundles for Pressurized Heavy Water Reactors (PHWR), Boiling Water Reactors (BWR) and Fast breeder reactors; many reactor core components, various tubes, high purity special materials; etc. It has developed state-of-art facilities and process technologies with several innovations in the field of nuclear fuel production and fabrication. The organization is thus playing a catalyst’s role in nation-building. The complex also symbolizes the strong emphasis on self-reliance in the Indian Nuclear Power Program. 
+The division takes care of all the IT needs of NFC. As many functions and systems are unique to NFC, specialized and customized IT packages are developed/ordered, tested and deployed by the division.
+To maintain such an eminent and vast environment there are servers that are running and maintained by the Computer Section of Nuclear Fuel Complex. For such environment, security plays an important role to protect and safeguard various kinds of data, and information simultaneously allowing all users, customers and vendors to access freely and securely without any hindrances. 
+
+Internship Description:
+My role at NFC was to design a Network Monitoring Tool and to design a firewall using iptables and test using a remote testing environment and successfully deployed in the infrastructure. I worked under the guidance of Shri. Kunal Kishore Verma, Deputy Manager, Computer Division and overall guidance of Shri.G.V.S.M.Siva Kumar, Senior Manager, Computer Division.
+
+Overview of the Internship
+Firstly we had to design a Network Monitoring Tool to scan all the Wireless Access Points (WAP) for encryption using telnet protocol and to develop a summarized report of the same. In addition to this, we had to even design a tool to scan all the systems(windows as well as Linux) , using NTP module in python, in the infrastructure to verify the time lag between the system and the Network Time Protocol Server running and generate a report for the same based on the threshold. As a further add-on, we were even told to scan the logs of the Dynamic Host Configuration Protocol (DHCP) server for unknown connections and give a report regarding the same. We have compiled all the three functionalities in a single script and have given an attractive UI using the Tkinter module in python.
+
+Secondly, we had to design a firewall using iptables for a given set of rules. For that, we had to gain a good knowledge of Networking and Open Systems Interconnection (OSI) layers. Firstly we learned about Wi-Fi network types and different protocols used in them.
+Then with that knowledge, we have further proceeded to learn about Internet Protocols and their uses in daily situations.
+Then with the knowledge of firewalls and IPs, we have learned, we have designed a basic structure of a firewall. Then we learned about IPTABLES, a Linux tool used to set up firewalls. We have set up a demo test medium with a laptop having kali Linux as a server and a red hat server pre-installed system with 2 Network Interface Cards as a firewall and a windows system as the client PC. We have then assigned IP addresses to all the 4 NICs. We have then set up basic logging of the PING status using iptables. During this, we have changed the setting to forward all IPv4 packets from 1 NIC to another NIC in the firewall system. While doing PING requests, we were able to log all the requests with all the data like MAC address, request time, packet size, etc.. We then wrote multiple rules as required and checked them constantly by changing the protocol settings in the client PC. Like this, we were able to design a fully functional firewall by taking live logs of all the dropped packets. Hence we successfully established a firewall using IPTABLES and customize it to be open-source.
